@@ -1,4 +1,6 @@
-function User() {
+
+function Profil() {
+
     return (
         <main className="main bg-dark">
             <div className="header">
@@ -40,4 +42,4 @@ function User() {
     )
 }
 
-export default User;
+export default Profil;

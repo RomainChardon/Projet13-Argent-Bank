@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 import Logo from "../assets/img/argentBankLogo.png"
 
-function Nav() {
+const Nav = () => {
     return (
         <nav className="main-nav">
             <Link to="/" className="main-nav-logo">
