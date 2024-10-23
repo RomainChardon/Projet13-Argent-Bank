@@ -1,6 +1,7 @@
+import {useState} from "react";
+import loginUser from "../api/getUserLogin.jsx";
 
-function Profil() {
-
+const Profil = () => {
     return (
         <main className="main bg-dark">
             <div className="header">

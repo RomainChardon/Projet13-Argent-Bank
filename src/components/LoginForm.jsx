@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import {useNavigate} from "react-router-dom";
-import loginUser from "../api/loginUser.jsx";
+import loginUser from "../api/getUserLogin.jsx";
 
 const LoginForm = () => {
     const [email, setEmail] = useState('');
